@@ -1,0 +1,106 @@
+/* MyJoinedRides.css */
+
+.joined-rides-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.joined-rides-container h2 {
+  text-align: center;
+  color: #0047a8;
+  margin-bottom: 1.5rem;
+}
+
+.ride-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #f9f9f9;
+}
+
+.ride-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #222;
+}
+
+.ride-card p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.ride-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.ride-card .btn-cancel {
+  margin-top: 1rem;
+  background-color: #c62828;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ride-card .btn-cancel:hover {
+  background-color: #b71c1c;
+}
+
+.ride-card .info-bold {
+  font-weight: bold;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.modal-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-actions button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-actions button:first-child {
+  background-color: #d9534f;
+  color: white;
+}
+
+.modal-actions button:last-child {
+  background-color: #5bc0de;
+  color: white;
+}
